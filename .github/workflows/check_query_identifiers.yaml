@@ -1,7 +1,9 @@
 name: check_query_identifiers.yaml
 on:
   push:
+    branches: [main]
   pull_request:
+    branches: [main]
 
 jobs:
   format_check:
@@ -15,7 +17,7 @@ jobs:
 
     runs-on: ${{ matrix.os }}
 
-    name: Run PR Check
+    name: Run Check Query Identifiers
 
     steps:
       - name: Checkout
