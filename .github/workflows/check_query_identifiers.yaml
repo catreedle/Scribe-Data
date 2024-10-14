@@ -1,4 +1,4 @@
-name: pr_ci
+name: check_query_identifiers.yaml
 on:
   push:
   pull_request:
